@@ -9,7 +9,7 @@ class DownloadCvButton extends StatelessWidget {
   // Download function
   void _downloadCv() async {
     const url =
-        'https://drive.google.com/uc?export=download&id=1SKqWtVvs2YpZSWZFHvMFuttHnaS2GKwD'; // File ID se download link banao
+        'https://drive.google.com/file/d/1TQD3UGLqXps8hcYqfqkKdGl1TKOe6oN3/view?usp=sharing'; // File ID se download link banao
     if (await canLaunch(url)) {
       await launch(url); // Link ko open karo
     } else {
